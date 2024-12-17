@@ -1,0 +1,137 @@
+/* Global style */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+/* About section */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Project section */
+.projects {
+    background: #f4f4f4;
+    padding: 40px 0;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact section */
+.contact { /* Corrected the class name to 'contact' */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #2575fc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: #6a11cb;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
